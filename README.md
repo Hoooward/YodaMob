@@ -497,6 +497,6 @@ Then call to The method to load ads:
 ## How To Apply Facebook & Admob Advertisement
 
 * [Facebook Ad SDK inset description.](https://developers.facebook.com/docs/audience-network)
-* [Google Admob Ad SDK insert description](https://firebase.google.com/docs/ios/setup)
+* [Google Admob Ad SDK insert description.](https://firebase.google.com/docs/ios/setup)
 
 
