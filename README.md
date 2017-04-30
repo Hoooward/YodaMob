@@ -5,10 +5,11 @@
 
 
 ## YodaMob - Mobile Advertising Integration Platform
+[![Build Status](https://travis-ci.org/meolu/walle-web.svg?branch=master)]()
 
 We mediate the most popular mobile Ad networks to ensure high fill rate and high eCPM. Our    lightweight SDK, Flexible API and JS Tag for all developers, turn non-paying users into your  outstanding income source.
 
- [官方主页](http://www.yodamob.com)
+ [Home Page](http://www.yodamob.com)
 
 We know building great apps takes time. So we have the easiest way for integration. Let us get started now.
 
