@@ -1,0 +1,444 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E43A1F8D1EB5ED9F006276AB /* FBAudienceNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43A1F8A1EB5ED9F006276AB /* FBAudienceNetwork.framework */; };
+		E43A1F8E1EB5ED9F006276AB /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43A1F8B1EB5ED9F006276AB /* GoogleMobileAds.framework */; };
+		E43A1F911EB5EF79006276AB /* YDSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E43A1F901EB5EF79006276AB /* YDSDK.framework */; };
+		E46C6D531EB5B36400068614 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D521EB5B36400068614 /* main.m */; };
+		E46C6D561EB5B36400068614 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D551EB5B36400068614 /* AppDelegate.m */; };
+		E46C6D611EB5B36400068614 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46C6D5F1EB5B36400068614 /* LaunchScreen.storyboard */; };
+		E46C6D7E1EB5B37300068614 /* YDBannerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D701EB5B37300068614 /* YDBannerViewController.m */; };
+		E46C6D7F1EB5B37300068614 /* YDInterstitialViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D721EB5B37300068614 /* YDInterstitialViewController.m */; };
+		E46C6D811EB5B37300068614 /* YDNativeOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D761EB5B37300068614 /* YDNativeOneViewController.m */; };
+		E46C6D831EB5B37300068614 /* YDNativeTemplateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D7A1EB5B37300068614 /* YDNativeTemplateViewController.m */; };
+		E46C6D881EB5B3A000068614 /* YDHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D871EB5B3A000068614 /* YDHUD.m */; };
+		E46C6D921EB5B3A700068614 /* CustomNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D8B1EB5B3A700068614 /* CustomNativeView.m */; };
+		E46C6D931EB5B3A700068614 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D8D1EB5B3A700068614 /* ListCell.m */; };
+		E46C6D941EB5B3A700068614 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46C6D8E1EB5B3A700068614 /* ListCell.xib */; };
+		E46C6D951EB5B3A700068614 /* NativeAdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D901EB5B3A700068614 /* NativeAdCell.m */; };
+		E46C6D961EB5B3A700068614 /* NativeAdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46C6D911EB5B3A700068614 /* NativeAdCell.xib */; };
+		E46C6D991EB5B3AD00068614 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D981EB5B3AD00068614 /* RootViewController.m */; };
+		E46C6D9B1EB5B3BE00068614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46C6D9A1EB5B3BE00068614 /* Main.storyboard */; };
+		E46C6DA41EB5B44A00068614 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E46C6DA31EB5B44A00068614 /* libsqlite3.0.tbd */; };
+		E46C6DA61EB5B4A800068614 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E46C6DA51EB5B4A800068614 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E43A1F8A1EB5ED9F006276AB /* FBAudienceNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBAudienceNetwork.framework; path = ../SDK/FBAudienceNetwork.framework; sourceTree = "<group>"; };
+		E43A1F8B1EB5ED9F006276AB /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMobileAds.framework; path = ../SDK/GoogleMobileAds.framework; sourceTree = "<group>"; };
+		E43A1F901EB5EF79006276AB /* YDSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = YDSDK.framework; path = ../SDK/YDSDK.framework; sourceTree = "<group>"; };
+		E46C6D4E1EB5B36400068614 /* YDSDK-iOS-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "YDSDK-iOS-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E46C6D521EB5B36400068614 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E46C6D541EB5B36400068614 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E46C6D551EB5B36400068614 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E46C6D601EB5B36400068614 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E46C6D621EB5B36400068614 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E46C6D6F1EB5B37300068614 /* YDBannerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDBannerViewController.h; sourceTree = "<group>"; };
+		E46C6D701EB5B37300068614 /* YDBannerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDBannerViewController.m; sourceTree = "<group>"; };
+		E46C6D711EB5B37300068614 /* YDInterstitialViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDInterstitialViewController.h; sourceTree = "<group>"; };
+		E46C6D721EB5B37300068614 /* YDInterstitialViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDInterstitialViewController.m; sourceTree = "<group>"; };
+		E46C6D751EB5B37300068614 /* YDNativeOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNativeOneViewController.h; sourceTree = "<group>"; };
+		E46C6D761EB5B37300068614 /* YDNativeOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDNativeOneViewController.m; sourceTree = "<group>"; };
+		E46C6D791EB5B37300068614 /* YDNativeTemplateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDNativeTemplateViewController.h; sourceTree = "<group>"; };
+		E46C6D7A1EB5B37300068614 /* YDNativeTemplateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDNativeTemplateViewController.m; sourceTree = "<group>"; };
+		E46C6D851EB5B3A000068614 /* YDDemoMarco.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDDemoMarco.h; sourceTree = "<group>"; };
+		E46C6D861EB5B3A000068614 /* YDHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YDHUD.h; sourceTree = "<group>"; };
+		E46C6D871EB5B3A000068614 /* YDHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YDHUD.m; sourceTree = "<group>"; };
+		E46C6D8A1EB5B3A700068614 /* CustomNativeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomNativeView.h; sourceTree = "<group>"; };
+		E46C6D8B1EB5B3A700068614 /* CustomNativeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomNativeView.m; sourceTree = "<group>"; };
+		E46C6D8C1EB5B3A700068614 /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
+		E46C6D8D1EB5B3A700068614 /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
+		E46C6D8E1EB5B3A700068614 /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
+		E46C6D8F1EB5B3A700068614 /* NativeAdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeAdCell.h; sourceTree = "<group>"; };
+		E46C6D901EB5B3A700068614 /* NativeAdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeAdCell.m; sourceTree = "<group>"; };
+		E46C6D911EB5B3A700068614 /* NativeAdCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdCell.xib; sourceTree = "<group>"; };
+		E46C6D971EB5B3AD00068614 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		E46C6D981EB5B3AD00068614 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		E46C6D9A1EB5B3BE00068614 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ADs/Main.storyboard; sourceTree = "<group>"; };
+		E46C6DA31EB5B44A00068614 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
+		E46C6DA51EB5B4A800068614 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E46C6D4B1EB5B36400068614 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E43A1F8E1EB5ED9F006276AB /* GoogleMobileAds.framework in Frameworks */,
+				E46C6DA41EB5B44A00068614 /* libsqlite3.0.tbd in Frameworks */,
+				E43A1F911EB5EF79006276AB /* YDSDK.framework in Frameworks */,
+				E43A1F8D1EB5ED9F006276AB /* FBAudienceNetwork.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E46C6D451EB5B36400068614 = {
+			isa = PBXGroup;
+			children = (
+				E43A1F901EB5EF79006276AB /* YDSDK.framework */,
+				E43A1F8A1EB5ED9F006276AB /* FBAudienceNetwork.framework */,
+				E43A1F8B1EB5ED9F006276AB /* GoogleMobileAds.framework */,
+				E46C6D501EB5B36400068614 /* YDSDK-iOS-Demo */,
+				E46C6D4F1EB5B36400068614 /* Products */,
+				E46C6DA21EB5B44A00068614 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E46C6D4F1EB5B36400068614 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E46C6D4E1EB5B36400068614 /* YDSDK-iOS-Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E46C6D501EB5B36400068614 /* YDSDK-iOS-Demo */ = {
+			isa = PBXGroup;
+			children = (
+				E46C6D891EB5B3A700068614 /* CustomView */,
+				E46C6D841EB5B3A000068614 /* Helper */,
+				E46C6D681EB5B37300068614 /* ADs */,
+				E46C6D541EB5B36400068614 /* AppDelegate.h */,
+				E46C6D551EB5B36400068614 /* AppDelegate.m */,
+				E46C6D971EB5B3AD00068614 /* RootViewController.h */,
+				E46C6D981EB5B3AD00068614 /* RootViewController.m */,
+				E46C6D5F1EB5B36400068614 /* LaunchScreen.storyboard */,
+				E46C6D9A1EB5B3BE00068614 /* Main.storyboard */,
+				E46C6DA51EB5B4A800068614 /* Assets.xcassets */,
+				E46C6D621EB5B36400068614 /* Info.plist */,
+				E46C6D511EB5B36400068614 /* Supporting Files */,
+			);
+			path = "YDSDK-iOS-Demo";
+			sourceTree = "<group>";
+		};
+		E46C6D511EB5B36400068614 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E46C6D521EB5B36400068614 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E46C6D681EB5B37300068614 /* ADs */ = {
+			isa = PBXGroup;
+			children = (
+				E46C6D6F1EB5B37300068614 /* YDBannerViewController.h */,
+				E46C6D701EB5B37300068614 /* YDBannerViewController.m */,
+				E46C6D711EB5B37300068614 /* YDInterstitialViewController.h */,
+				E46C6D721EB5B37300068614 /* YDInterstitialViewController.m */,
+				E46C6D791EB5B37300068614 /* YDNativeTemplateViewController.h */,
+				E46C6D7A1EB5B37300068614 /* YDNativeTemplateViewController.m */,
+				E46C6D751EB5B37300068614 /* YDNativeOneViewController.h */,
+				E46C6D761EB5B37300068614 /* YDNativeOneViewController.m */,
+			);
+			path = ADs;
+			sourceTree = "<group>";
+		};
+		E46C6D841EB5B3A000068614 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				E46C6D851EB5B3A000068614 /* YDDemoMarco.h */,
+				E46C6D861EB5B3A000068614 /* YDHUD.h */,
+				E46C6D871EB5B3A000068614 /* YDHUD.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		E46C6D891EB5B3A700068614 /* CustomView */ = {
+			isa = PBXGroup;
+			children = (
+				E46C6D8A1EB5B3A700068614 /* CustomNativeView.h */,
+				E46C6D8B1EB5B3A700068614 /* CustomNativeView.m */,
+				E46C6D8C1EB5B3A700068614 /* ListCell.h */,
+				E46C6D8D1EB5B3A700068614 /* ListCell.m */,
+				E46C6D8E1EB5B3A700068614 /* ListCell.xib */,
+				E46C6D8F1EB5B3A700068614 /* NativeAdCell.h */,
+				E46C6D901EB5B3A700068614 /* NativeAdCell.m */,
+				E46C6D911EB5B3A700068614 /* NativeAdCell.xib */,
+			);
+			path = CustomView;
+			sourceTree = "<group>";
+		};
+		E46C6DA21EB5B44A00068614 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E46C6DA31EB5B44A00068614 /* libsqlite3.0.tbd */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E46C6D4D1EB5B36400068614 /* YDSDK-iOS-Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E46C6D651EB5B36400068614 /* Build configuration list for PBXNativeTarget "YDSDK-iOS-Demo" */;
+			buildPhases = (
+				E46C6D4A1EB5B36400068614 /* Sources */,
+				E46C6D4B1EB5B36400068614 /* Frameworks */,
+				E46C6D4C1EB5B36400068614 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YDSDK-iOS-Demo";
+			productName = "YDSDK-iOS-Demo";
+			productReference = E46C6D4E1EB5B36400068614 /* YDSDK-iOS-Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E46C6D461EB5B36400068614 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = YodaMob;
+				TargetAttributes = {
+					E46C6D4D1EB5B36400068614 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = M8E7Y88Q7R;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E46C6D491EB5B36400068614 /* Build configuration list for PBXProject "YDSDK-iOS-Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E46C6D451EB5B36400068614;
+			productRefGroup = E46C6D4F1EB5B36400068614 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E46C6D4D1EB5B36400068614 /* YDSDK-iOS-Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E46C6D4C1EB5B36400068614 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46C6D611EB5B36400068614 /* LaunchScreen.storyboard in Resources */,
+				E46C6D9B1EB5B3BE00068614 /* Main.storyboard in Resources */,
+				E46C6D961EB5B3A700068614 /* NativeAdCell.xib in Resources */,
+				E46C6D941EB5B3A700068614 /* ListCell.xib in Resources */,
+				E46C6DA61EB5B4A800068614 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E46C6D4A1EB5B36400068614 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E46C6D811EB5B37300068614 /* YDNativeOneViewController.m in Sources */,
+				E46C6D7F1EB5B37300068614 /* YDInterstitialViewController.m in Sources */,
+				E46C6D921EB5B3A700068614 /* CustomNativeView.m in Sources */,
+				E46C6D831EB5B37300068614 /* YDNativeTemplateViewController.m in Sources */,
+				E46C6D7E1EB5B37300068614 /* YDBannerViewController.m in Sources */,
+				E46C6D951EB5B3A700068614 /* NativeAdCell.m in Sources */,
+				E46C6D561EB5B36400068614 /* AppDelegate.m in Sources */,
+				E46C6D991EB5B3AD00068614 /* RootViewController.m in Sources */,
+				E46C6D881EB5B3A000068614 /* YDHUD.m in Sources */,
+				E46C6D931EB5B3A700068614 /* ListCell.m in Sources */,
+				E46C6D531EB5B36400068614 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E46C6D5F1EB5B36400068614 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E46C6D601EB5B36400068614 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E46C6D631EB5B36400068614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E46C6D641EB5B36400068614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E46C6D661EB5B36400068614 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M8E7Y88Q7R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/tychooo/Desktop/YodaMob/SDK/,
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "YDSDK-iOS-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /Users/tychooo/Desktop/YodaMob/SDK/;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Youda.YDSDK-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E46C6D671EB5B36400068614 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M8E7Y88Q7R;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/tychooo/Desktop/YodaMob/SDK/,
+				);
+				HEADER_SEARCH_PATHS = "";
+				INFOPLIST_FILE = "YDSDK-iOS-Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = /Users/tychooo/Desktop/YodaMob/SDK/;
+				OTHER_LDFLAGS = (
+					"$(OTHER_LDFLAGS)",
+					"-ObjC",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Youda.YDSDK-iOS-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E46C6D491EB5B36400068614 /* Build configuration list for PBXProject "YDSDK-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46C6D631EB5B36400068614 /* Debug */,
+				E46C6D641EB5B36400068614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E46C6D651EB5B36400068614 /* Build configuration list for PBXNativeTarget "YDSDK-iOS-Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E46C6D661EB5B36400068614 /* Debug */,
+				E46C6D671EB5B36400068614 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E46C6D461EB5B36400068614 /* Project object */;
+}
