@@ -1,7 +1,7 @@
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-![](http://7xrfzx.com1.z0.glb.clouddn.com/logo+name_4.png)
+![](http://7xrfzx.com1.z0.glb.clouddn.com/%E8%B5%84%E6%BA%90%202.png)
 
 
 ## YodaMob - Mobile Advertising Integration Platform
