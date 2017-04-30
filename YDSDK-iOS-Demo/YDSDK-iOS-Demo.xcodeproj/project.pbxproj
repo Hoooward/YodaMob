@@ -21,8 +21,6 @@
 		E46C6D921EB5B3A700068614 /* CustomNativeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D8B1EB5B3A700068614 /* CustomNativeView.m */; };
 		E46C6D931EB5B3A700068614 /* ListCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D8D1EB5B3A700068614 /* ListCell.m */; };
 		E46C6D941EB5B3A700068614 /* ListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46C6D8E1EB5B3A700068614 /* ListCell.xib */; };
-		E46C6D951EB5B3A700068614 /* NativeAdCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D901EB5B3A700068614 /* NativeAdCell.m */; };
-		E46C6D961EB5B3A700068614 /* NativeAdCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E46C6D911EB5B3A700068614 /* NativeAdCell.xib */; };
 		E46C6D991EB5B3AD00068614 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E46C6D981EB5B3AD00068614 /* RootViewController.m */; };
 		E46C6D9B1EB5B3BE00068614 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E46C6D9A1EB5B3BE00068614 /* Main.storyboard */; };
 		E46C6DA41EB5B44A00068614 /* libsqlite3.0.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = E46C6DA31EB5B44A00068614 /* libsqlite3.0.tbd */; };
@@ -55,9 +53,6 @@
 		E46C6D8C1EB5B3A700068614 /* ListCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ListCell.h; sourceTree = "<group>"; };
 		E46C6D8D1EB5B3A700068614 /* ListCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ListCell.m; sourceTree = "<group>"; };
 		E46C6D8E1EB5B3A700068614 /* ListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ListCell.xib; sourceTree = "<group>"; };
-		E46C6D8F1EB5B3A700068614 /* NativeAdCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NativeAdCell.h; sourceTree = "<group>"; };
-		E46C6D901EB5B3A700068614 /* NativeAdCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NativeAdCell.m; sourceTree = "<group>"; };
-		E46C6D911EB5B3A700068614 /* NativeAdCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NativeAdCell.xib; sourceTree = "<group>"; };
 		E46C6D971EB5B3AD00068614 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
 		E46C6D981EB5B3AD00068614 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
 		E46C6D9A1EB5B3BE00068614 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ADs/Main.storyboard; sourceTree = "<group>"; };
@@ -160,9 +155,6 @@
 				E46C6D8C1EB5B3A700068614 /* ListCell.h */,
 				E46C6D8D1EB5B3A700068614 /* ListCell.m */,
 				E46C6D8E1EB5B3A700068614 /* ListCell.xib */,
-				E46C6D8F1EB5B3A700068614 /* NativeAdCell.h */,
-				E46C6D901EB5B3A700068614 /* NativeAdCell.m */,
-				E46C6D911EB5B3A700068614 /* NativeAdCell.xib */,
 			);
 			path = CustomView;
 			sourceTree = "<group>";
@@ -236,7 +228,6 @@
 			files = (
 				E46C6D611EB5B36400068614 /* LaunchScreen.storyboard in Resources */,
 				E46C6D9B1EB5B3BE00068614 /* Main.storyboard in Resources */,
-				E46C6D961EB5B3A700068614 /* NativeAdCell.xib in Resources */,
 				E46C6D941EB5B3A700068614 /* ListCell.xib in Resources */,
 				E46C6DA61EB5B4A800068614 /* Assets.xcassets in Resources */,
 			);
@@ -254,7 +245,6 @@
 				E46C6D921EB5B3A700068614 /* CustomNativeView.m in Sources */,
 				E46C6D831EB5B37300068614 /* YDNativeTemplateViewController.m in Sources */,
 				E46C6D7E1EB5B37300068614 /* YDBannerViewController.m in Sources */,
-				E46C6D951EB5B3A700068614 /* NativeAdCell.m in Sources */,
 				E46C6D561EB5B36400068614 /* AppDelegate.m in Sources */,
 				E46C6D991EB5B3AD00068614 /* RootViewController.m in Sources */,
 				E46C6D881EB5B3A000068614 /* YDHUD.m in Sources */,

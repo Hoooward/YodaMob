@@ -14,4 +14,6 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *apiLabel;
 
+@property (weak, nonatomic) IBOutlet UILabel *chNameLabel;
+
 @end
