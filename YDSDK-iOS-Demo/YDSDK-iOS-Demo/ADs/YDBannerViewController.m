@@ -57,11 +57,16 @@
                                               success:^(UIView *bannerView) {
                                                   
         
-        [weakself.view addSubview:bannerView];
-        
-    } failure:^(NSError *error) {
-        
-    }];
+                                                  [weakself.view addSubview:bannerView];
+                                                  
+//                                                  NSAssert( 0 != 0, @"aaaa");
+                                               
+                                                  
+                                                  
+                                                  
+                                              } failure:^(NSError *error) {
+                                                  
+                                              }];
 }
 
 - (void)done {
@@ -80,6 +85,7 @@
 #pragma mark - YDBannderDelegate
 
 - (void)YDBannerClosed:(YDBanner *)banner {
+
     debugMethod();
 }
 
