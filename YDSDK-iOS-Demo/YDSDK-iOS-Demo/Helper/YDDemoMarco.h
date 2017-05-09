@@ -14,10 +14,10 @@
 // YodaMob SlotId
 
 // YodaMob 优先
-#define bannerSlotId            @"59040a2de4b00d54f1646933"
-#define interstitilaSlotId      @"59040a54e4b00d54f1646934"
-#define nativeTemplateSlotId    @"59040a80e4b00d54f1646935"
-#define OneNativeSlotId         @"59041660e4b00d54f1646936"
+#define bannerSlotId            @"590ed278e4b0c474d1a04b00"
+#define interstitilaSlotId      @"590fd0a5e4b0c474d1a04b01"
+#define OneNativeSlotId         @"590fd0dae4b0c474d1a04b02"
+#define nativeTemplateSlotId    @"590fd0fde4b0c474d1a04b03"
 
 // Facebook 优先
 /*

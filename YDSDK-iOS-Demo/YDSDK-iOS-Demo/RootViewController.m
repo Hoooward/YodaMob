@@ -97,8 +97,6 @@
     [self.view addSubview:self.tableView];
     
     NSLog(@"%@", PATH_OF_DOCUMENT);
-    NSArray *array = @[@"1", @"2", @"3"];
-    NSString *result = [array objectAtIndex:100];
 }
 
 #pragma mark - UITableViewDelegate&DataScore

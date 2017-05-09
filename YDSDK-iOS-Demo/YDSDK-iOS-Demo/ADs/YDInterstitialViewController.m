@@ -76,7 +76,7 @@
                                                    delegate:self
                                                isFullScreen:NO
                                                    keywords:nil
-                                                     isTest:YES
+                                                     isTest:NO
                                                     success:^(UIView *interstitialView) {
         
         weakself.isSuccess = YES;
