@@ -14,7 +14,7 @@
 #import "YDNativeOneViewController.h"
 #import "ListCell.h"
 #import <YDSDK/YDSDK.h>
-//#import "Person.h"
+#import <CoreLocation/CoreLocation.h>
 
 @interface RootViewController () <NSURLSessionDataDelegate, YDInterstitialDelegate, UIWebViewDelegate, UITableViewDelegate, UITableViewDataSource>
 

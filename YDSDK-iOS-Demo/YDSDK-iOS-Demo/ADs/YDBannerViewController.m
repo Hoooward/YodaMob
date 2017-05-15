@@ -60,8 +60,6 @@
                                                   [weakself.view addSubview:bannerView];
                                                   
 //                                                  NSAssert( 0 != 0, @"aaaa");
-                                               
-                                                  
                                                   
                                                   
                                               } failure:^(NSError *error) {
